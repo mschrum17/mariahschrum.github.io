@@ -576,7 +576,9 @@
     </div>
   </div>
 </div>
-</li>
+
+
+
 
           <li><div class="row m-0 mt-3 p-0">
 			 <div class="col-sm-1 p-0 abbr">
@@ -647,59 +649,55 @@
     </div>
     <div class="col-sm-11 p-0">
       <ol class="bibliography">
-		<li><div class="row m-0 mt-3 p-0">
+		 <li><div class="row m-0 mt-3 p-0">
 			 <div class="col-sm-1 p-0 abbr">
-        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://humanrobotinteraction.org/2020/" target="_blank">
-          HRI
+        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://www.robot-learning.org/" target="_blank">
+          CoRL
         </a>
 			</div>
   <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-    
+
     <div id="bobu2020HRI" class="col p-0">
-      <h5 class="title mb-0">LESS is More: Rethinking Probabilistic Models of Human Behavior</h5>
+      <h5 class="title mb-0">Learning from Suboptimal Demonstration via Self-Supervised Reward Regression</h5>
       <div class="author">
-                
-									<nobr><em>Rohan Paleja*</em>,</nobr>
-              
-                  <nobr><a href="https://www.linkedin.com/in/dexterscobee/" target="_blank">Dexter R. R. Scobee<nobr><em>*</em></nobr></a>,</nobr>
-                
-                  <nobr><a href="https://ece.princeton.edu/people/jaime-fernandez-fisac" target="_blank">Jaime F. Fisac</a>,</nobr>
-            
-                  <nobr><a href="https://people.eecs.berkeley.edu/~sastry/" target="_blank">S. Shankar Sastry</a>,</nobr>
-              
+
+                          <nobr><a href="http://www.letianchen.me/" target="_blank">Letian Chen</a>,</nobr>
+							<nobr><em>Rohan Paleja</em>,</nobr>
+
+
 									and
-                
-                  <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
-        
+
+                  <nobr><a href="https://core-robotics.gatech.edu/people/matthew-gombolay/" target="_blank">Matthew Gombolay</a>.</nobr>
+
       </div>
 
       <div>
         <p class="periodical font-italic">
-          ACM/IEEE International Conference on Human Robot Interaction (HRI), 2020
+          Conference on Robot Learning (CoRL), 2021
 	      <br>
-       	<nobr><em style="color:orange;">Best Paper Award Winner</em></nobr>
+       	<nobr><em style="color:orange;">Best Paper Award Finalist</em></nobr>
         </p>
       </div>
-    
+
       <div class="col p-0">
-        
+
           <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2020HRI-abstract" role="button" aria-expanded="false" aria-controls="bobu2020HRI-abstract">Abstract</a>
-        
+
           <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/less/bobu2020HRI.pdf" target="_blank">PDF</a>
           <a class="badge grey waves-effect font-weight-light mr-1" href="https://sites.google.com/view/less-human-decision-model" target="_blank">Project Website</a>
 	        <a class="badge grey waves-effect font-weight-light mr-1" href="https://www.youtube.com/watch?v=xa_l5HeyVgw" target="_blank">Talk</a>
-        
+
       </div>
-    
-      
+
+
       <div class="col mt-2 p-0">
         <div id="bobu2020HRI-abstract" class="collapse">
           <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-            Robots need models of human behavior for both inferring human goals and preferences, and predicting what people will do. A common model is the Boltzmann noisily-rational decision model, which assumes people approximately optimize a reward function and choose trajectories in proportion to their exponentiated reward. While this model has been successful in a variety of robotics domains, its roots lie in econometrics, and in modeling decisions among different discrete options, each with its own utility or reward. In contrast, human trajectories lie in a continuous space, with continuous-valued features that influence the reward function. We propose that it is time to rethink the Boltzmann model, and design it from the ground up to operate over such trajectory spaces. We introduce a model that explicitly accounts for distances between trajectories, rather than only their rewards. Rather than each trajectory affecting the decision independently, similar trajectories now affect the decision together. We start by showing that our model better explains human behavior in a user study. We then analyze the implications this has for robot inference, first in toy environments where we have ground truth and find more accurate inference, and finally for a 7DOF robot arm learning from user demonstrations.
+            Learning from Demonstration (LfD) seeks to democratize robotics by enabling non-roboticist end-users to teach robots to perform a task by providing a human demonstration. However, modern LfD techniques, e.g. inverse reinforcement learning (IRL), assume users provide at least stochastically optimal demonstrations. This assumption fails to hold in most real-world scenarios. Recent attempts to learn from sub-optimal demonstration leverage pairwise rankings and following the Luce-Shepard rule. However, we show these approaches make incorrect assumptions and thus suffer from brittle, degraded performance. We overcome these limitations in developing a novel approach that bootstraps off suboptimal demonstrations to synthesize optimality-parameterized data to train an idealized reward function. We empirically validate we learn an idealized reward function with ~0.95 correlation with ground-truth reward versus ~0.75 for prior work. We can then train policies achieving ~200% improvement over the suboptimal demonstration and ~90% improvement over prior work. We present a physical demonstration of teaching a robot a topspin strike in table tennis that achieves 32% faster returns and 40% more topspin than user demonstration.
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
 </div>
@@ -707,14 +705,14 @@
 			
 <li><div class="row m-0 mt-3 p-0">
 			 <div class="col-sm-1 p-0 abbr">
-        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="http://www.hripioneers.info/hri20/index.html" target="_blank">
-          HRI
+        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://neurips.cc" target="_blank">
+          NeurIPS
         </a>
 			</div>
   <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
     
     <div id="bobu2020HRIpioneers" class="col p-0">
-      <h5 class="title mb-0">Detecting Hypothesis Space Misspecification in Robot Learning from Human Input</h5>
+      <h5 class="title mb-0">Interpretable and Personalized Apprenticeship Scheduling: Learning Interpretable Scheduling Policies from Heterogeneous User Demonstrations </h5>
       <div class="author">
                 
 									<nobr><em>Rohan Paleja</em></nobr>
@@ -723,7 +721,7 @@
 
       <div>
         <p class="periodical font-italic">
-          HRI Pioneers Companion of the ACM/IEEE International Conference on Human-Robot Interaction (HRI), 2020.
+          Conference on Neural Information Processing Systems (NeurIPS), 2020.
         </p>
       </div>
     
@@ -739,7 +737,7 @@
       <div class="col mt-2 p-0">
         <div id="bobu2020HRIpioneers-abstract" class="collapse">
           <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-            Learning from human input has enabled autonomous agents to perform increasingly more complex tasks that are otherwise difficult to carry out automatically. To this end, recent works have studied how robots can incorporate such input - like demonstrations or corrections - into objective functions describing the desired behaviors. While these methods have shown progress in a variety of settings, from semi-autonomous driving, to household robotics, to automated airplane control, they all suffer from the same crucial drawback: they implicitly assume that the person's intentions can always be captured by the robot's hypothesis space. We call attention to the fact that this assumption is often unrealistic, as no model can completely account for every single possible situation ahead of time. When the robot's hypothesis space is misspecified, human input can be unhelpful - or even detrimental - to the way the robot is performing its tasks. Our work tackles this issue by proposing that the robot should first explicitly reason about how well its hypothesis space can explain human inputs, then use that situational confidence to inform how it should incorporate them.
+            Resource scheduling and coordination is an NP-hard optimization requiring an efficient allocation of agents to a set of tasks with upper- and lower bound temporal and resource constraints. Due to the large-scale and dynamic nature of resource coordination in hospitals and factories, human domain experts manually plan and adjust schedules on the fly. To perform this job, domain experts leverage heterogeneous strategies and rules-of-thumb honed over years of apprenticeship. What is critically needed is the ability to extract this domain knowledge in a heterogeneous and interpretable apprenticeship learning framework to scale beyond the power of a single human expert, a necessity in safety-critical domains. We propose a personalized and interpretable apprenticeship scheduling algorithm that infers an interpretable representation of all human task demonstrators by extracting decision-making criteria specified by an inferred, personalized embedding without constraining the number of decision-making strategies. We achieve near-perfect LfD accuracy in synthetic domains and 88.22% accuracy on a real-world planning domain, outperforming baselines. Further, a user study conducted shows that our methodology produces both interpretable and highly usable models (p < 0.05).
           </div>
         </div>
       </div>
@@ -747,7 +745,55 @@
     </div>
   </div>
 </div>
-</li></ol>
+</li>
+
+
+
+          <li><div class="row m-0 mt-3 p-0">
+			 <div class="col-sm-1 p-0 abbr">
+        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://neurips.cc" target="_blank">
+          HRI
+        </a>
+			</div>
+  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+
+    <div id="bobu2020HRIpioneers" class="col p-0">
+      <h5 class="title mb-0">Joint Goal and Strategy Inference across Heterogeneous Demonstrators via Reward Network Distillation  </h5>
+      <div class="author">
+
+									<nobr><em>Rohan Paleja</em></nobr>
+
+      </div>
+
+      <div>
+        <p class="periodical font-italic">
+          ACM/IEEE International Conference on Human Robot Interaction (HRI), 2020.
+        </p>
+      </div>
+
+      <div class="col p-0">
+
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2020HRIpioneers-abstract" role="button" aria-expanded="false" aria-controls="bobu2020HRIpioneers-abstract">Abstract</a>
+
+          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/lumos/bobu2020HRIpioneers.pdf" target="_blank">PDF</a>
+
+      </div>
+
+
+      <div class="col mt-2 p-0">
+        <div id="bobu2020HRIpioneers-abstract" class="collapse">
+          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+            Reinforcement learning (RL) has achieved tremendous success as a general framework for learning how to make decisions. However, this success relies on the interactive hand-tuning of a reward function by RL experts. On the other hand, inverse reinforcement learning (IRL) seeks to learn a reward function from readily-obtained human demonstrations. Yet, IRL suffers from two major limitations: 1)reward ambiguity – there are an infinite number of possible re-ward functions that could explain an expert’s demonstration and 2) heterogeneity-human experts adopt varying strategies and preferences, which makes learning from multiple demonstrators difficult due to the common assumption that demonstrators seeks to maximize the same reward. In this work, we propose a method to jointly infer a task goal and humans’ strategic preferences via network distillation. This approach enables us to distill a robust task reward (addressing reward ambiguity) and to model each strategy’s objective (handling heterogeneity). We demonstrate our algorithm can better recover task reward and strategy rewards and imitate the strategies two simulated tasks and a real-world table tennis task.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</li>
+
+      </ol>
 
 			
 			
@@ -765,257 +811,54 @@
 		<li><div class="row m-0 mt-3 p-0">
 			 <div class="col-sm-1 p-0 abbr">
         <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://www.ieee-ras.org/publications/t-ro" target="_blank">
-          T-RO
+          HRI
         </a>
 			</div>
   <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-    
+
     <div id="bobu2019TRO" class="col p-0">
-      <h5 class="title mb-0">Quantifying Hypothesis Space Misspecification in Learning from Human-Robot Demonstrations and Physical Corrections</h5>
+      <h5 class="title mb-0">Heterogeneous Learning from Demonstration</h5>
       <div class="author">
-                
+
 									<nobr><em>Rohan Paleja</em>,</nobr>
-              
-                  <nobr><a href="https://people.eecs.berkeley.edu/~abajcsy/" target="_blank">Andrea Bajcsy<nobr><em></em></nobr></a>,</nobr>
-                
-                  <nobr><a href="https://ece.princeton.edu/people/jaime-fernandez-fisac" target="_blank">Jaime F. Fisac</a>,</nobr>
-            
-                  <nobr><a href="https://www.researchgate.net/scientific-contributions/2133993191_Sampada_Deglurkar" target="_blank">Sampada Deglurkar</a>,</nobr>
-              
+
 									and
-                
-                  <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
-        
+
+                  <nobr><a href="https://core-robotics.gatech.edu/people/matthew-gombolay/" target="_blank">Matthew Gombolay</a>.</nobr>
+
       </div>
 
       <div>
         <p class="periodical font-italic">
-          IEEE Transactions on Robotics (T-RO)
-        <br>
-        <nobr><em style="color:orange;">Best Paper Award Honorable Mention</em></nobr>
+           International Conference on Human Robot Interaction (HRI) Pioneers Workshop
         </p>
       </div>
-    
+
       <div class="col p-0">
-        
+
           <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2019TRO-abstract" role="button" aria-expanded="false" aria-controls="bobu2019TRO-abstract">Abstract</a>
-        
+
           <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/lumos/bobu2019TRO.pdf" target="_blank">PDF</a>
           <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/andreea7b/jaco_learning" target="_blank">Code</a>
           <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/lumos/bobu2019TRO_poster.pdf" target="_blank">Poster</a>
-        
+
       </div>
-    
+
       <div class="col mt-2 p-0">
         <div id="bobu2019TRO-abstract" class="collapse">
           <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-            Human input has enabled autonomous systems to improve their capabilities and achieve complex behaviors that are otherwise challenging to generate automatically. Recent work focuses on how robots can use such input - like demonstrations or corrections - to learn intended objectives. These techniques assume that the human’s desired objective already exists within the robot’s hypothesis space. In reality, this assumption is often inaccurate: there will always be situations where the person might care about aspects of the task that the robot does not know about. Without this knowledge, the robot cannot infer the correct objective. Hence, when the robot’s hypothesis space is misspecified, even methods that keep track of uncertainty over the objective fail because they reason about which hypothesis might be correct, and not whether any of the hypotheses are correct. In this paper, we posit that the robot should reason explicitly about how well it can explain human inputs given its hypothesis space and use that situational confidence to inform how it should incorporate human input. We demonstrate our method on a 7 degree-of-freedom robot manipulator in learning from two important types of human input: demonstrations of manipulation tasks, and physical corrections during the robot’s task execution.
+            The development of human-robot systems able to leverage the strengths of both humans and their robotic counterparts has been greatly sought after because of the foreseen, broad-ranging impact across industry and research. We believe the true potential of these systems cannot be reached unless the robot is able to act with a high level of autonomy, reducing the burden of manual tasking or teleoperation. To achieve this level of autonomy, robots must be able to work fluidly with its human partners, inferring their needs without explicit commands. This inference requires the robot to be able to detect and classify the heterogeneity of its partners. We propose a framework for learning from heterogeneous demonstration based upon Bayesian inference and evaluate a suite of approaches on a real-world dataset of gameplay from StarCraft II. This evaluation provides evidence that our Bayesian approach can outperform conventional methods by up to 12.8%.
           </div>
         </div>
       </div>
-      
+
     </div>
   </div>
 </div>
 </li></ol>
     </div>
   </div>
-
-<div class="row m-0 p-0" style="border-top: 1px solid #ddd; flex-direction: row-reverse;">
-    <div class="col-sm-1 mt-2 p-0 pr-1">
-      <h3 class="bibliography-year">2018</h3>
-    </div>
-    <div class="col-sm-11 p-0">
-      <ol class="bibliography">
-
-		<li><div class="row m-0 mt-3 p-0">
-			 <div class="col-sm-1 p-0 abbr">
-        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://sites.google.com/a/robot-learning.org/corl2017/corl2018" target="_blank">
-          CoRL
-        </a>
-			</div>
-  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-    
-    <div id="bobu2018CoRL" class="col p-0">
-      <h5 class="title mb-0">Learning under Misspecified Objective Spaces</h5>
-      <div class="author">
-                
-									<nobr><em>Rohan Paleja</em>,</nobr>
-              
-                  <nobr><a href="https://people.eecs.berkeley.edu/~abajcsy/" target="_blank">Andrea Bajcsy<nobr><em></em></nobr></a>,</nobr>
-                
-                  <nobr><a href="https://ece.princeton.edu/people/jaime-fernandez-fisac" target="_blank">Jaime F. Fisac</a>,</nobr>
-            
-									and
-                
-                  <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
-        
-      </div>
-
-      <div>
-        <p class="periodical font-italic">
-          Conference on Robot Learning (CoRL), 2018
-          <br>
-          <nobr><em>Invited to Special Issue</em></nobr>
-        </p>
-      </div>
-    
-      <div class="col p-0">
-        
-          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2018CoRL-abstract" role="button" aria-expanded="false" aria-controls="bobu2018CoRL-abstract">Abstract</a>
-        
-          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/lumos/bobu2018CoRL.pdf" target="_blank">PDF</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/andreea7b/beta_adaptive_pHRI" target="_blank">Code</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="https://youtu.be/stnFye8HdcU" target="_blank">Video</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/lumos/bobu2018CoRL_poster.pdf" target="_blank">Poster</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="https://youtu.be/FSsEqEJKo8A?t=6353" target="_blank">Talk</a>
-        
-      </div>
-    
-      <div class="col mt-2 p-0">
-        <div id="bobu2018CoRL-abstract" class="collapse">
-          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-            Learning robot objective functions from human input has become increasingly important, but state-of-the-art techniques assume that the human's desired objective lies within the robot's hypothesis space. When this is not true, even methods that keep track of uncertainty over the objective fail because they reason about which hypothesis might be correct, and not whether any of the hypotheses are correct. We focus specifically on learning from physical human corrections during the robot's task execution, where not having a rich enough hypothesis space leads to the robot updating its objective in ways that the person did not actually intend. We observe that such corrections appear irrelevant to the robot, because they are not the best way of achieving any of the candidate objectives. Instead of naively trusting and learning from every human interaction, we propose robots learn conservatively by reasoning in real time about how relevant the human's correction is for the robot's hypothesis space. We test our inference method in an experiment with human interaction data, and demonstrate that this alleviates unintended learning in an in-person user study with a 7DoF robot manipulator.
-          </div>
-        </div>
-      </div>
       
-    </div>
-  </div>
-</div>
-</li>
-
-
-<li><div class="row m-0 mt-3 p-0">
-			 <div class="col-sm-1 p-0 abbr">
-        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://iclr.cc/Conferences/2018" target="_blank">
-          ICLR
-        </a>
-			</div>
-  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-    
-    <div id="bobu2018ICLR" class="col p-0">
-      <h5 class="title mb-0">Adapting to Continuously Shifting Domains</h5>
-      <div class="author">
-                
-									<nobr><em>Rohan Paleja</em>,</nobr>
-              
-                  <nobr><a href="https://scholar.google.com/citations?user=nABXo3sAAAAJ&hl=en" target="_blank">Eric Tzeng<nobr><em></em></nobr></a>,</nobr>
-                
-                  <nobr><a href="https://www.cc.gatech.edu/~judy/" target="_blank">Judy Hoffman</a>,</nobr>
-            
-									and
-                
-                  <nobr><a href="https://people.eecs.berkeley.edu/~trevor/" target="_blank">Trevor Darrell</a>.</nobr>
-        
-      </div>
-
-      <div>
-        <p class="periodical font-italic">
-          International Conference on Learning Representations (ICLR) Workshop, 2018
-        </p>
-      </div>
-    
-      <div class="col p-0">
-        
-          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2018ICLR-abstract" role="button" aria-expanded="false" aria-controls="bobu2018ICLR-abstract">Abstract</a>
-        
-          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/CUA/bobu2018ICLR.pdf" target="_blank">PDF</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/CUA/bobu2018ICLR_poster.pdf" target="_blank">Poster</a>
-        
-      </div>
-    
-      <div class="col mt-2 p-0">
-        <div id="bobu2018ICLR-abstract" class="collapse">
-          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-            Domain adaptation typically focuses on adapting a model from a single source domain to a target domain. However, in practice, this paradigm of adapting from one source to one target is limiting, as different aspects of the real world such as illumination and weather conditions vary continuously and cannot be effectively captured by two static domains. Approaches that attempt to tackle this problem by adapting from a single source to many different target domains simultaneously are consistently unable to learn across all domain shifts. Instead, we propose an adaptation method that exploits the continuity between gradually varying domains by adapting in sequence from the source to the most similar target domain. By incrementally adapting while simultaneously efficiently regularizing against prior examples, we obtain a single strong model capable of recognition within all observed domains. Our method is applicable on a wide variety of learning settings, including visual classification and reinforcement learning in a video game domain.
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
-</li>
-
-
-			</ol>
-    </div>
-  </div>
-
-
-
-
-<div class="row m-0 p-0" style="border-top: 1px solid #ddd; flex-direction: row-reverse;">
-    <div class="col-sm-1 mt-2 p-0 pr-1">
-      <h3 class="bibliography-year">2016</h3>
-    </div>
-    <div class="col-sm-11 p-0">
-      <ol class="bibliography">
-			
-		<li><div class="row m-0 mt-3 p-0">
-			 <div class="col-sm-1 p-0 abbr">
-        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://www.miccai2016.org/en/" target="_blank">
-          MICCAI
-        </a>
-			</div>
-  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
-    
-    <div id="dalca2016MICCAI" class="col p-0">
-      <h5 class="title mb-0">Patch-Based Discrete Registration of Clinical Brain Images</h5>
-      <div class="author">
-
-                  <nobr><a href="http://www.mit.edu/~adalca/" target="_blank">Adrian Dalca<nobr><em></em></nobr></a>,</nobr>
-                
-									<nobr><em>Rohan Paleja</em>,</nobr>
-              
-                  <nobr><a href="https://www.massgeneral.org/doctors/17477/natalia-rost" target="_blank">Natalia S. Rost</a>,</nobr>
-            
-									and
-                
-                  <nobr><a href="https://people.csail.mit.edu/polina/" target="_blank">Polina Golland</a>.</nobr>
-        
-      </div>
-
-      <div>
-        <p class="periodical font-italic">
-	Patch-based Techniques in Medical Imaging at the International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI-PATCHMI), 2016
-	<br>
-	<nobr><em style="color:orange;">Best Paper Award Winner</em></nobr>
-        </p>
-      </div>
-    
-      <div class="col p-0">
-        
-          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#dalca2016MICCAI-abstract" role="button" aria-expanded="false" aria-controls="dalca2016MICCAI-abstract">Abstract</a>
-        
-          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/PBR/dalca2016MICCAI.pdf" target="_blank">PDF</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/adalca/patchRegistration" target="_blank">Code</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/PBR/dalca2016MICCAI_poster.pdf" target="_blank">Poster</a>
-        
-      </div>
-    
-      <div class="col mt-2 p-0">
-        <div id="dalca2016MICCAI-abstract" class="collapse">
-          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-						We introduce a method for registration of brain images acquired in clinical settings. The algorithm relies on three-dimensional patches in a discrete registration framework to estimate correspondences. Clinical images present significant challenges for computational analysis. Fast acquisition often results in images with sparse slices, severe artifacts, and variable fields of view. Yet, large clinical datasets hold a wealth of clinically relevant information. Despite significant progress in image registration, most algorithms make strong assumptions about the continuity of image data, failing when presented with clinical images that violate these assumptions. In this paper, we demonstrate a non-rigid registration method for aligning such images. The method explicitly models the sparsely available image information to achieve robust registration. We demonstrate the algorithm on clinical images of stroke patients. The proposed method outperforms state of the art registration algorithms and avoids catastrophic failures often caused by these images. We provide a freely available open source implementation of the algorithm.
-          </div>
-        </div>
-      </div>
-      
-    </div>
-  </div>
-</div>
-</li>
-
-
-			</ol>
-    </div>
-  </div>
-
-
-
-  </div>
 
   <!-- Footer -->
   <footer>
