@@ -296,7 +296,7 @@
   <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
 
     <div id="bobu2022ICRA" class="col p-0">
-      <h5 class="title mb-0">Learning Efficient Diverse Communication for Cooperative Heterogeneous Teaming </h5>
+      <h5 class="title mb-0">Mutual Understanding in Human-Machine Teaming</h5>
       <div class="author">
 
                           <nobr><em>Rohan Paleja*</em>,</nobr>
@@ -367,11 +367,11 @@
                 
                   <nobr>Roger Dias<nobr><em></em></nobr></a>,</nobr>
 		
-							<nobr><em>Marco Zenati</em>,</nobr>
-                            <nobr><em>Geoff Rance</em>,</nobr>
-							<nobr><em>Rithy Srey</em>,</nobr>
-							<nobr><em>David Arney</em>,</nobr>
-							<nobr><em>Letian Chen</em>,</nobr>
+							<nobr>Marco Zenati,</nobr>
+                            <nobr>Geoff Rance,</nobr>
+							<nobr>Rithy Srey,</nobr>
+							<nobr>David Arney,</nobr>
+                  <nobr><a href="http://www.letianchen.me/" target="_blank">Letian Chen</a>,</nobr>
 							<nobr><em>Rohan Paleja</em>,</nobr>
 
                   <nobr><a href="https://scholar.harvard.edu/laurenkennedy-metz/home" target="_blank">Lauren Kennedy-Metz</a>,</nobr>
@@ -469,33 +469,30 @@
 
 	<li><div class="row m-0 mt-3 p-0">
 			 <div class="col-sm-1 p-0 abbr">
-        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://humanrobotinteraction.org/2021/" target="_blank">
+        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://ai-hri.github.io/2021/" target="_blank">
           HRI
         </a>
 			</div>
   <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
     
     <div id="bobu2021HRI" class="col p-0">
-      <h5 class="title mb-0">Feature Expansive Reward Learning: Rethinking Human Input</h5>
+      <h5 class="title mb-0">Towards Sample-efficient Apprenticeship Learning from Suboptimal Demonstration</h5>
       <div class="author">
-                
-									<nobr><em>Rohan Paleja*</em>,</nobr>
-              
-                  <nobr><a href="https://www.linkedin.com/in/marius-wiggert/" target="_blank">Marius Wiggert<nobr><em>*</em></nobr></a>,</nobr>
-                
-                  <nobr><a href="https://people.eecs.berkeley.edu/~tomlin/" target="_blank">Claire J. Tomlin</a>,</nobr>
-              
+                  <nobr><a href="http://www.letianchen.me/" target="_blank">Letian Chen</a>,</nobr>
+
+									<nobr><em>Rohan Paleja</em>,</nobr>
+
 									and
                 
-                  <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
+                  <nobr><a href="https://core-robotics.gatech.edu/people/matthew-gombolay/" target="_blank">Matthew Gombolay</a>.</nobr>
+
         
       </div>
 
       <div>
         <p class="periodical font-italic">
-          ACM/IEEE International Conference on Human Robot Interaction (HRI), 2021
+          AAAI Artificial Intelligence for Human-Robot Interaction (AI-HRI) Fall Symposium, 2021
           <br>
-        <nobr><em style="color:orange;">Best Paper Award Finalist</em></nobr>
         </p>
       </div>
     
@@ -504,9 +501,9 @@
           <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2021HRI-abstract" role="button" aria-expanded="false" aria-controls="bobu2021HRI-abstract">Abstract</a>
         
           <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/FERL/bobu2021HRI.pdf" target="_blank">PDF</a>
-          <a class="badge grey waves-effect font-weight-light mr-1" href="https://sites.google.com/view/feature-learning" target="_blank">Project Website</a>
+<!--          <a class="badge grey waves-effect font-weight-light mr-1" href="https://sites.google.com/view/feature-learning" target="_blank">Project Website</a>-->
           <a class="badge grey waves-effect font-weight-light mr-1" href="https://github.com/andreea7b/FERL" target="_blank">Code</a>
-	  <a class="badge grey waves-effect font-weight-light mr-1" href="https://www.youtube.com/watch?v=NaD-eVri8r4&ab_channel=InterACTLab" target="_blank">Talk</a>
+<!--	  <a class="badge grey waves-effect font-weight-light mr-1" href="https://www.youtube.com/watch?v=NaD-eVri8r4&ab_channel=InterACTLab" target="_blank">Talk</a>-->
           
       </div>
     
@@ -514,7 +511,7 @@
       <div class="col mt-2 p-0">
         <div id="bobu2021HRI-abstract" class="collapse">
           <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
-        When a person is not satisfied with how a robot performs a task, they can intervene to correct it. Reward learning methods enable the robot to adapt its reward function online based on such human input, but they rely on handcrafted features. When the correction cannot be explained by these features, recent work in deep Inverse Reinforcement Learning (IRL) suggests that the robot could ask for task demonstrations and recover a reward defined over the raw state space. Our insight is that rather than implicitly learning about the missing feature(s) from demonstrations, the robot should instead ask for data that explicitly teaches it about what it is missing. We introduce a new type of human input in which the person guides the robot from states where the feature being taught is highly expressed to states where it is not. We propose an algorithm for learning the feature from the raw state space and integrating it into the reward function. By focusing the human input on the missing feature, our method decreases sample complexity and improves generalization of the learned reward over the above deep IRL baseline. We show this in experiments with a physical 7DOF robot manipulator, as well as in a user study conducted in a simulated environment.  
+        Learning from Demonstration (LfD) seeks to democratize robotics by enabling non-roboticist end-users to teach robots to perform novel tasks by providing demonstrations. However, as demonstrators are typically non-experts, modern LfD techniques are unable to produce policies much better than the suboptimal demonstration. A previously-proposed framework, SSRR, has shown success in learning from suboptimal demonstration but relies on noise-injected trajectories to infer an idealized reward function. A random approach such as noise-injection to generate trajectories has two key drawbacks: 1) Performance degradation could be random depending on whether the noise is applied to vital states and 2) Noise-injection generated trajectories may have limited suboptimality and therefore will not accurately represent the whole scope of suboptimality. We present Systematic Self-Supervised Reward Regression, S3RR, to investigate systematic alternatives for trajectory degradation.
 	</div>
         </div>
       </div>
@@ -522,8 +519,66 @@
     </div>
   </div>
 </div>
-			
-</li></ol>
+
+
+
+</li>
+
+          <li><div class="row m-0 mt-3 p-0">
+			 <div class="col-sm-1 p-0 abbr">
+        <a class="badge font-weight-bold light-blue darken-1 align-middle" style="width: 65px;" href="https://aamas2021.soton.ac.uk/" target="_blank">
+          AAMAS
+        </a>
+			</div>
+  <div class="col-sm-11 mt-2 mt-sm-0 p-0 pl-xs-0 pl-sm-4 pr-xs-0 pr-sm-2">
+
+    <div id="bobu2020HRI" class="col p-0">
+      <h5 class="title mb-0">Multi-Agent Graph-Attention Communication and Teaming</h5>
+      <div class="author">
+                  <nobr><a href="https://yaruniu.com/" target="_blank">Yaru Niu<nobr><em>*</em></nobr></a>,</nobr>
+
+									<nobr><em>Rohan Paleja*</em>,</nobr>
+
+
+									and
+
+                  <nobr><a href="https://people.eecs.berkeley.edu/~anca/" target="_blank">Anca D. Dragan</a>.</nobr>
+
+      </div>
+
+      <div>
+        <p class="periodical font-italic">
+          International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2021
+	      <br>
+       	<nobr><em style="color:orange;">Best Workshop Paper Award Winner at ICCV MAIR2 Workshop</em></nobr>
+        </p>
+      </div>
+
+      <div class="col p-0">
+
+          <a class="badge grey waves-effect font-weight-light mr-1" data-toggle="collapse" href="#bobu2020HRI-abstract" role="button" aria-expanded="false" aria-controls="bobu2020HRI-abstract">Abstract</a>
+
+          <a class="badge grey waves-effect font-weight-light mr-1" href="/assets/pdf/less/bobu2020HRI.pdf" target="_blank">PDF</a>
+          <a class="badge grey waves-effect font-weight-light mr-1" href="https://sites.google.com/view/less-human-decision-model" target="_blank">Project Website</a>
+	        <a class="badge grey waves-effect font-weight-light mr-1" href="https://www.youtube.com/watch?v=xa_l5HeyVgw" target="_blank">Talk</a>
+
+      </div>
+
+
+      <div class="col mt-2 p-0">
+        <div id="bobu2020HRI-abstract" class="collapse">
+          <div class="abstract card card-body font-weight-light mr-0 mr-sm-3 p-3">
+            Robots need models of human behavior for both inferring human goals and preferences, and predicting what people will do. A common model is the Boltzmann noisily-rational decision model, which assumes people approximately optimize a reward function and choose trajectories in proportion to their exponentiated reward. While this model has been successful in a variety of robotics domains, its roots lie in econometrics, and in modeling decisions among different discrete options, each with its own utility or reward. In contrast, human trajectories lie in a continuous space, with continuous-valued features that influence the reward function. We propose that it is time to rethink the Boltzmann model, and design it from the ground up to operate over such trajectory spaces. We introduce a model that explicitly accounts for distances between trajectories, rather than only their rewards. Rather than each trajectory affecting the decision independently, similar trajectories now affect the decision together. We start by showing that our model better explains human behavior in a user study. We then analyze the implications this has for robot inference, first in toy environments where we have ground truth and find more accurate inference, and finally for a 7DOF robot arm learning from user demonstrations.
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</li>
+
+      </ol>
 
 			
 			
