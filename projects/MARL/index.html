@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Rohan Paleja | Robot Models of Human Behavior</title>
+  <title>Rohan Paleja | Multi-Agent Coordination</title>
   <meta name="description" content="My personal website.
 ">
 
@@ -12,17 +12,26 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
 
   <!-- CSS Files -->
-  <link rel="stylesheet" href="/~abobu/assets/css/all.min.css">
-  <link rel="stylesheet" href="/~abobu/assets/css/academicons.min.css">
-  <link rel="stylesheet" href="/~abobu/assets/css/main.css">
-  <link rel="canonical" href="/~abobu/projects/LESS/">
+  <link rel="stylesheet" href="/assets/css/all.min.css">
+  <link rel="stylesheet" href="/assets/css/academicons.min.css">
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="canonical" href="/projects/MARL">
 </head>
 <body>
   <!-- Header -->
   <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
 
-        <a class="navbar-brand title font-weight-lighter" href="/~abobu/"><span class="font-weight-bold">Andreea</span> Bobu</a>
+        <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Rohan</span> Paleja</a>
+     	<div class="row ml-1 ml-sm-0">
+          <span class="contact-icon text-center" style="line-height: 1em;">
+            <a href="mailto:rpaleja3@gatech.edu"><i class="fa fa-envelope-square gm-icon"></i></a>
+            <a href="https://scholar.google.com/citations?user=xjnQbKgAAAAJ&hl=en" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar-square gs-icon"></i></a>
+            <a href="https://github.com/rohanpaleja27" target="_blank" title="GitHub"><i class="fab fa-github-square gh-icon"></i></a>
+            <a href="https://www.linkedin.com/in/rohan-paleja-6370a3111/" target="_blank" title="LinkedIn"><i class="fab fa-linkedin li-icon"></i></a>
+            <a href="https://twitter.com/rohanpaleja27" target="_blank" title="Twitter"><i class="fab fa-twitter-square tw-icon"></i></a>
+          </span>
+        </div>
 
       <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,55 +39,49 @@
       <div class="collapse navbar-collapse text-right" id="navbarNav">
         <ul class="navbar-nav ml-auto flex-nowrap">
           <li class="nav-item ">
-            <a class="nav-link" href="/~abobu/">
+            <a class="nav-link" href="/">
               About
 
             </a>
           </li>
 
-
-
-
               <li class="nav-item ">
-                  <a class="nav-link" href="/~abobu/assets/pdf/vitae.pdf">
+                  <a class="nav-link" href="/assets/pdf/vitae.pdf">
                     Curriculum Vitae
-
                   </a>
               </li>
 
+		          <!--
+              <li class="nav-item ">
+                  <a class="nav-link" href="/projects/">
+                    Projects
 
-
-
+                  </a>
+              </li>
+            	-->
 
               <li class="nav-item navbar-active font-weight-bold">
-                  <a class="nav-link" href="/~abobu/projects/">
-                    Projects
+                  <a class="nav-link" href="/publications/">
+                    Publications
 
                       <span class="sr-only">(current)</span>
 
                   </a>
               </li>
 
+<!--              <li class="nav-item ">-->
+<!--                  <a class="nav-link" href="/teaching/">-->
+<!--                    Teaching-->
+<!--                    -->
+<!--                  </a>-->
+<!--              </li>-->
 
-
-              <li class="nav-item ">
-                  <a class="nav-link" href="/~abobu/publications/">
-                    Publications
-
-                  </a>
-              </li>
-
-
-
-              <li class="nav-item ">
-                  <a class="nav-link" href="/~abobu/teaching/">
-                    Teaching
-
-                  </a>
-              </li>
-
-
-
+<!--              <li class="nav-item ">-->
+<!--                  <a class="nav-link" href="/service/">-->
+<!--                    Service-->
+<!--                                        -->
+<!--                  </a>-->
+<!--              </li>-->
 
         </ul>
       </div>
@@ -96,16 +99,16 @@
   <div class="content">
     <nav aria-label="breadcrumb">
   <ol class="breadcrumb p-0 text-lowercase">
-    <li class="breadcrumb-item"><a href="/~abobu/">home</a></li>
-    <li class="breadcrumb-item"><a href="/~abobu/projects">Projects</a></li>
-    <li class="breadcrumb-item less">Robot Models of Human Behavior</li>
+    <li class="breadcrumb-item"><a href="/">home</a></li>
+    <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+    <li class="breadcrumb-item less">Multi-Agent Coordination</li>
   </ol>
 </nav>
 
 <div class="row m-0" style="width: 100%;">
   <div class="col-sm-12 p-0">
-    <h1>Robot Models of Human Behavior</h1>
-    <h5 class="mb-4">rethinking probabilistic models of human behavior</h5>
+    <h1>Multi-Agent Coordination</h1>
+    <h5 class="mb-4">Here, I present two multi-agent coordination algorithms that let decentralized robots learn to collectively share knowledge and develop collaboration plans: Multi-agent Graph Attention Communication (MAGIC) and Heterogeneous Policy Networks (HetNet)</h5>
   </div>
 	<div><p style="float: left;"><img src="../../assets/img/LESS.png"  height="200" width="200" class="post_thumb" ></p>
 		<p style="margin-left:220px">Robots need models of human behavior for both inferring human goals and preferences, and predicting what people will do. Typical models, like the Boltzmann noisily-rational decision model, assume that people approximately optimize a reward function and choose trajectories in proportion to their exponentiated reward. In this work, we observe that these models originate from <i>discrete</i> decision making in econometrics, and propose, instead, a probabilistic model of human behavior for <i>continuous</i> trajectory spaces. Rather than each candidate trajectory affecting the human's decision independently, similar trajectories now affect the decision together.
