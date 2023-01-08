@@ -110,10 +110,12 @@
     <h1>Multi-Agent Coordination</h1>
     <h5 class="mb-4">Here, I present two multi-agent coordination algorithms that let decentralized robots learn to collectively share knowledge and develop collaboration plans: Multi-agent Graph Attention Communication (MAGIC) and Heterogeneous Policy Networks (HetNet)</h5>
   </div>
-	<div><p style="float: left;"><img src="../../assets/img/LESS.png"  height="200" width="200" class="post_thumb" ></p>
-		<p style="margin-left:220px">Robots need models of human behavior for both inferring human goals and preferences, and predicting what people will do. Typical models, like the Boltzmann noisily-rational decision model, assume that people approximately optimize a reward function and choose trajectories in proportion to their exponentiated reward. In this work, we observe that these models originate from <i>discrete</i> decision making in econometrics, and propose, instead, a probabilistic model of human behavior for <i>continuous</i> trajectory spaces. Rather than each candidate trajectory affecting the human's decision independently, similar trajectories now affect the decision together.
+	<div><p style="float: left;"><img src="../../assets/img/MAGIC.PNG"  height="200" width="200" class="post_thumb" ></p>
+		<p style="margin-left:220px">In \cite{Paleja_MAGIC}, I explore how effective communication can allow agents to coordinate effectively. Communication is a key component of successful coordination, enabling the agents to convey information and cooperate to collectively achieve shared goals \cite{Salas1992TowardAU}. In high-performing human teams, human experts judiciously choose when to communicate and whom to communicate with, communicating only when beneficial. I propose MAGIC, a graph communication protocol that determines ``when" and ``whom" with to communicate via an end-to-end framework.
  </p>
 	</div>
+
+  <p>I set a new state-of-the-art in communication-based MARL by modeling the topology of interactions among agents as a dynamic directed graph that accommodates time-varying communication needs and accurately captures the relations between agents. Our proposed framework emulates the features of an effective human-human team through: 1) the Scheduler, which helps each agent to decide when it should communicate and whom it should communicate with, and 2) the Message Processor, which integrates and processes received messages in preparation for decision making.</p>
 
 <div class="row m-0" style="width:100%;">
 	<h5>Project materials:</h5>
