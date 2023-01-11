@@ -4,8 +4,9 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Rohan Paleja | Projects</title>
-  <meta name="description" content="A beautiful Jekyll theme for academics">
+  <title>Rohan Paleja | Explainable AI</title>
+  <meta name="description" content="My personal website.
+">
 
   <!-- Fonts and Icons -->
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons" />
@@ -14,13 +15,13 @@
   <link rel="stylesheet" href="/assets/css/all.min.css">
   <link rel="stylesheet" href="/assets/css/academicons.min.css">
   <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="canonical" href="/projects/">
+  <link rel="canonical" href="/projects/LfD">
 </head>
 <body>
   <!-- Header -->
   <nav id="navbar" class="navbar fixed-top navbar-expand-md grey lighten-5 z-depth-1 navbar-light">
     <div class="container-fluid p-0">
-      
+
         <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Rohan</span> Paleja</a>
      	<div class="row ml-1 ml-sm-0">
           <span class="contact-icon text-center" style="line-height: 1em;">
@@ -40,7 +41,7 @@
           <li class="nav-item ">
             <a class="nav-link" href="/">
               About
-              
+
             </a>
           </li>
 
@@ -62,12 +63,12 @@
               <li class="nav-item navbar-active font-weight-bold">
                   <a class="nav-link" href="/publications/">
                     Publications
-                    
+
                       <span class="sr-only">(current)</span>
-                    
+
                   </a>
               </li>
-            
+
 <!--              <li class="nav-item ">-->
 <!--                  <a class="nav-link" href="/teaching/">-->
 <!--                    Teaching-->
@@ -81,7 +82,7 @@
 <!--                                        -->
 <!--                  </a>-->
 <!--              </li>-->
-          
+
         </ul>
       </div>
     </div>
@@ -96,77 +97,120 @@
 
   <!-- Content -->
   <div class="content">
-    
-  <h1>Projects</h1>
-  <h6>Highlighted Research Directions</h6>
+    <nav aria-label="breadcrumb">
+  <ol class="breadcrumb p-0 text-lowercase">
+    <li class="breadcrumb-item"><a href="/">home</a></li>
+    <li class="breadcrumb-item"><a href="/projects">Projects</a></li>
+    <li class="breadcrumb-item less">Learning from Demonstration</li>
+  </ol>
+</nav>
+
+<div class="row m-0" style="width: 100%;">
+  <div class="col-sm-12 p-0">
+    <h1>Learning from Demonstration</h1>
+    <h5 class="mb-4">Here, I present two multi-agent coordination algorithms that let decentralized robots learn to collectively share knowledge and develop collaboration plans: Multi-agent Graph Attention Communication (MAGIC) and Heterogeneous Policy Networks (HetNet)</h5>
+  </div>
+<!--	<div><p style="float: left;"><img src="../../assets/img/OODA.png"  height="200" width="300" class="post_thumb" ></p>-->
+<!--		<p style="margin-left:220px">Recent advances in machine learning have led to growing interest in xAI to enable humans to gain insight-->
+<!--into the decision-making of machine learning models. Despite this, the utility of xAI techniques has not yet been characterized in human-machine teaming. Importantly, xAI offers the promise of enhancing team situational awareness (SA) and shared mental model development, which are the key characteristics of effective human-machine teams. Inspired by prior work in human factors, I present the first analyses of xAI under sequential decision-making settings for human-machine teams.</p>-->
+<!--	</div>-->
+
+  <table>
+  <tbody>
+    <tr>
+      <td>Recent advances in machine learning have led to growing interest in xAI to enable humans to gain insight
+into the decision-making of machine learning models. Despite this, the utility of xAI techniques has not yet been characterized in human-machine teaming. Importantly, xAI offers the promise of enhancing team situational awareness (SA) and shared mental model development, which are the key characteristics of effective human-machine teams. Inspired by prior work in human factors, I present the first analyses of xAI under sequential decision-making settings for human-machine teams.</td>
+      <td><img src="/assets/img/OODA.png" alt="iqubes" width="400px" height="200px" /></td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="row m-0" style="width:100%;">
+  <p>I set a new state-of-the-art in communication-based MARL by modeling the topology of interactions among agents as a dynamic directed graph that accommodates time-varying communication needs and accurately captures the relations between agents. Our proposed framework emulates the features of an effective human-human team through: 1) the Scheduler, which helps each agent to decide when it should communicate and whom it should communicate with, and 2) the Message Processor, which integrates and processes received messages in preparation for decision making.</p>
+</div>
+<div class="row m-0" style="width:100%;">
+	<h5>Project materials:</h5>
+<ul style="margin-left:10px">
+	<li><a href="https://www.youtube.com/watch?v=g9sQyOjjoFY" target="_blank">Talk</a> from the ICCV MAIR2 Workshop in 2021.</li>
+	<li><div id="paleja2021AAMAS" class="col p-0">
+        <nobr><a href="https://yaruniu.com/" target="_blank">Yaru Niu<nobr><em>*</em></nobr></a>,</nobr>
+
+									<nobr><em>Rohan Paleja*</em>,</nobr>
 
 
-<div id="projects" class="row mt-2 pt-3" style="overflow: visible !important;">
-  
-  
-    <div class="project-card">
-      
-        <a href="/projects/MARL/">
-      
-        <div class="card">
-          <img class="card-img-top" src="/assets/img/Full_CommGraph_Final.PNG" alt="project thumbnail" />
-          <div class="card-body">
-            <h5 class="card-title">Multi-Agent Coordination</h5>
-            <p class="card-text">Multi-agent coordination algorithms that let decentralized robots learn to collectively share knowledge and develop collaboration plans.</p>
-            <div class="row ml-1 mr-1 p-0">
-              
-              
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
+									and
 
-      <div class="project-card">
+                  <nobr><a href="https://core-robotics.gatech.edu/people/matthew-gombolay/" target="_blank">Matthew Gombolay</a>.</nobr>
 
-        <a href="/projects/xAI/">
+				<a href="https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p964.pdf" target="_blank">Multi-Agent Graph-Attention Communication and Teaming</a>.
+				<i>International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2021</i>.
+		<nobr><em>Best Workshop Paper Award Winner at ICCV MAIR2 Workshop</em>.</nobr>
+		</div></li>
+  </ul>
 
-        <div class="card">
-          <img class="card-img-top" src="/assets/img/OODA.png" alt="project thumbnail" />
-          <div class="card-body">
-            <h5 class="card-title">Explainable AI</h5>
-            <p class="card-text">Creating and utilizing tree-based models for interpretable robot policies.</p>
-            <div class="row ml-1 mr-1 p-0">
-
-
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
-
-          <div class="project-card">
-
-        <a href="/projects/LfD/">
-
-        <div class="card">
-          <img class="card-img-top" src="/assets/img/OODA.png" alt="project thumbnail" />
-          <div class="card-body">
-            <h5 class="card-title">Learning from Demonstration</h5>
-            <p class="card-text">Having engineers program collaborative behavior for robots in each specific application across factories, hospitals, and households is intractable, can result in suboptimal robot policies, and may require access to domain information that is private. Thus, to truly achieve ubiquity of robotics, end-users must be able to interactively teach cobots desired behaviors, thereby imparting their domain knowledge onto the robot.</p>
-            <div class="row ml-1 mr-1 p-0">
-
-
-            </div>
-          </div>
-        </div>
-      </a>
-    </div>
 </div>
 
+
+  <!-- <div class="col-sm-2 p-0 mt-auto mb-auto">
+    <img src="/assets/img/active_learning/active_learning_logo.svg" alt="project thumbnail">
+  </div> -->
+</div>
+
+<div class="row m-0" style="width: 100%;">
+
+	<div><p style="float: left;"><img src="../../assets/img/Full_CommGraph_Final.PNG"  height="250" width="200" class="post_thumb" ></p>
+		<p style="margin-left:220px">In HetNet, I research how robots with different capabilities can coordinate under partial observability and decentralized communication. Heterogeneity in robots' design characteristics and their roles are introduced to leverage the relative merits of different agents and their capabilities. I define a heterogeneous robot team as a group of cooperative agents that are capable of performing different tasks and may have access to different sensory information. I categorize agents with similar state, action, and observation spaces in the same class. In such a heterogeneous setting, communicating is not straightforward as agents do not speak the same "language''; The dependency generated via sensor-lax agents on agents with strong sensing capabilities makes efficient communication protocols for cooperation a requirement rather than an additional modeling technique for performance.
+ </p>
+	</div>
+
+<div class="row m-0" style="width:100%;">
+  <p>Accordingly, I directly model each agent class as a unique node type.</p>
+</div>
+<div class="row m-0" style="width:100%;">
+	<h5>Project materials:</h5>
+<ul style="margin-left:10px">
+	<li><div id="paleja2022AAMAS" class="col p-0">
+  <nobr><a href="https://esmaeilseraj09.wixsite.com/home" target="_blank">Esmaeil Seraj<nobr><em>*</em></nobr></a>,</nobr>
+
+                  <nobr><a href="https://phejohnwang.github.io/" target="_blank">Zheyuan Wang<nobr><em>*</em></nobr></a>,</nobr>
+
+                          <nobr><em>Rohan Paleja*</em>,</nobr>
+
+                  <nobr><a href="https://www.linkedin.com/in/danielmartin576" target="_blank">Daniel Martin</a>,</nobr>
+
+                  <nobr><a href="https://www.linkedin.com/in/matthew-sklar-422231b4" target="_blank">Matthew Sklar</a>,</nobr>
+
+                  <nobr><a href="https://www.linkedin.com/in/anirudh-patel-7124a1b8" target="_blank">Anirudh Patel</a>,</nobr>
+
+									and
+
+                  <nobr><a href="https://core-robotics.gatech.edu/people/matthew-gombolay/" target="_blank">Matthew Gombolay</a>.</nobr>
+
+				<a href="/assets/pdf/paleja_hetnet.pdf" target="_blank">Learning Efficient Diverse Communication for Cooperative Heterogeneous Teaming</a>.
+				<i>International Conference on Autonomous Agents and Multiagent Systems (AAMAS), 2022</i>.
+		</div></li>
+  </ul>
+
+</div>
+
+
+  <!-- <div class="col-sm-2 p-0 mt-auto mb-auto">
+    <img src="/assets/img/active_learning/active_learning_logo.svg" alt="project thumbnail">
+  </div> -->
+</div>
+
+<div class="container-fluid p-0 text-justify">
+
+
+</div>
 
   </div>
 
   <!-- Footer -->
   <footer>
     &copy; Copyright 2023 Rohan Paleja.
-    
-    
+
+
   </footer>
 
   <!-- Core JavaScript Files -->
@@ -179,6 +223,42 @@
   <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js?config=TeX-MML-AM_CHTML"></script>
   <script src="/assets/js/common.js"></script>
 
+  <!-- GitHub Stars -->
+  <script src="/assets/js/github-stars.js"></script>
+  <script type="text/javascript">
+
+
+
+
+
+
+
+
+
+        githubStars("eaplatanios/symphony-mt", function(stars) { $("#curriculum-learningeaplatanios-symphony-mt-stars").text('' + stars); });
+
+
+
+
+        githubStars("eaplatanios/jelly-bean-world", function(stars) { $("#jelly-bean-worldeaplatanios-jelly-bean-world-stars").text('' + stars); });
+
+
+
+
+        githubStars("eaplatanios/symphony-mt", function(stars) { $("#machine-translationeaplatanios-symphony-mt-stars").text('' + stars); });
+
+
+
+
+
+
+
+
+        githubStars("eaplatanios/tensorflow_scala", function(stars) { $("#TensorFlow-Scalaeaplatanios-tensorflow_scala-stars").text('' + stars); });
+
+
+  </script>
+
   <!-- Scrolling Progress Bar -->
   <script type="text/javascript">
     $(document).ready(function() {
@@ -188,13 +268,13 @@
       var progressBar = $('#progress');
       progressBar.css({ 'top': navbarHeight });
       var getMax = function() { return $(document).height() - $(window).height(); }
-      var getValue = function() { return $(window).scrollTop(); }   
+      var getValue = function() { return $(window).scrollTop(); }
       // Check if the browser supports the progress element.
       if ('max' in document.createElement('progress')) {
         // Set the 'max' attribute for the first time.
         progressBar.attr({ max: getMax() });
         progressBar.attr({ value: getValue() });
-    
+
         $(document).on('scroll', function() {
           // On scroll only the 'value' attribute needs to be calculated.
           progressBar.attr({ value: getValue() });
@@ -231,7 +311,7 @@
 
   <!-- Code Syntax Highlighting -->
   <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
-  <script src="/assets/js/highlight.pack.js"></script>
+  <script src="/~abobu/assets/js/highlight.pack.js"></script>
   <script>hljs.initHighlightingOnLoad();</script>
 
   <!-- Script Used for Randomizing the Projects Order -->
@@ -279,7 +359,7 @@
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', '', 'auto');
+    ga('create', 'UA-54519238-1', 'auto');
     ga('send', 'pageview');
   </script>
 </body>
