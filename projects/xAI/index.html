@@ -113,38 +113,25 @@
     <div class="row m-0" style="width: 100%;">
         <div class="col-sm-12 p-0">
             <h1>Explainable AI</h1>
-            <h5 class="mb-4">Here, I present two multi-agent coordination algorithms that let decentralized robots learn
-                to collectively share knowledge and develop collaboration plans: Multi-agent Graph Attention
-                Communication (MAGIC) and Heterogeneous Policy Networks (HetNet)</h5>
+            <h5 class="mb-4">Recent advances in machine learning have led to growing interest in xAI to
+                enable humans to gain insight into the decision-making of machine learning models. However, 1)
+                interpretable reinforcement learning remains an open challenge, and 2) the utility of interpretable
+                models in human-machine teaming has not yet been characterized.</h5>
         </div>
         <!--	<div><p style="float: left;"><img src="../../assets/img/OODA.png"  height="200" width="300" class="post_thumb" ></p>-->
         <!--		<p style="margin-left:220px">Recent advances in machine learning have led to growing interest in xAI to enable humans to gain insight-->
         <!--into the decision-making of machine learning models. Despite this, the utility of xAI techniques has not yet been characterized in human-machine teaming. Importantly, xAI offers the promise of enhancing team situational awareness (SA) and shared mental model development, which are the key characteristics of effective human-machine teams. Inspired by prior work in human factors, I present the first analyses of xAI under sequential decision-making settings for human-machine teams.</p>-->
         <!--	</div>-->
 
-        <table>
-            <tbody>
-            <tr>
-                <td>Recent advances in machine learning have led to growing interest in xAI to enable humans to gain
-                    insight
-                    into the decision-making of machine learning models. Despite this, the utility of xAI techniques has
-                    not yet been characterized in human-machine teaming. Importantly, xAI offers the promise of
-                    enhancing team situational awareness (SA) and shared mental model development, which are the key
-                    characteristics of effective human-machine teams. Inspired by prior work in human factors, I present
-                    the first analyses of xAI under sequential decision-making settings for human-machine teams.
-                </td>
-                <td><img src="/assets/img/OODA.png" alt="iqubes" width="400px" height="200px"/></td>
-            </tr>
-            </tbody>
-        </table>
-
         <div class="row m-0" style="width:100%;">
-            <p>I set a new state-of-the-art in communication-based MARL by modeling the topology of interactions among
-                agents as a dynamic directed graph that accommodates time-varying communication needs and accurately
-                captures the relations between agents. Our proposed framework emulates the features of an effective
-                human-human team through: 1) the Scheduler, which helps each agent to decide when it should communicate
-                and whom it should communicate with, and 2) the Message Processor, which integrates and processes
-                received messages in preparation for decision making.</p>
+            <p>Reinforcement Learning (RL) with deep function approximators has enabled the generation of effective
+                control policies across numerous applications in robotics.
+                However, while the performance of these policies allows for autonomously learning collaborative
+                behaviors, the conventional deep-RL policies used in prior work lack interpretability, limiting
+                deployability in safety-critical and legally-regulated domains. Without the utilization of interpretable
+                models, it is difficult to assess a system's flaws, verify its correctness, and promote its
+                trustworthiness..</p>
+            <img src="/assets/img/icct_framework.png" alt="iqubes" width="400px" height="400px"/>
         </div>
         <div class="row m-0" style="width:100%;">
             <h5>Project materials:</h5>
@@ -185,25 +172,39 @@
     </div>
 
     <div class="row m-0" style="width: 100%;">
+        <table>
+            <tbody>
+            <tr>
+                <td>Recent advances in machine learning have led to growing interest in xAI to enable humans to gain
+                    insight into the decision-making of machine learning models. Despite this, the utility of xAI
+                    techniques has not yet been characterized in human-machine teaming. Importantly, xAI offers the
+                    promise of
+                    enhancing team situational awareness (SA) and shared mental model development, which are the key
+                    characteristics of effective human-machine teams. Inspired by prior work in human factors, I present
+                    the first analyses of xAI under sequential decision-making settings for human-machine teams.
+                </td>
+                <td><img src="/assets/img/OODA.png" alt="iqubes" width="400px" height="200px"/></td>
+            </tr>
+            </tbody>
+        </table>
+        <!--        <div><p style="float: left;"><img src="../../assets/img/Full_CommGraph_Final.PNG" height="250" width="200"-->
+        <!--                                          class="post_thumb"></p>-->
+        <!--            <p style="margin-left:220px">In HetNet, I research how robots with different capabilities can coordinate-->
+        <!--                under partial observability and decentralized communication. Heterogeneity in robots' design-->
+        <!--                characteristics and their roles are introduced to leverage the relative merits of different agents and-->
+        <!--                their capabilities. I define a heterogeneous robot team as a group of cooperative agents that are-->
+        <!--                capable of performing different tasks and may have access to different sensory information. I categorize-->
+        <!--                agents with similar state, action, and observation spaces in the same class. In such a heterogeneous-->
+        <!--                setting, communicating is not straightforward as agents do not speak the same "language''; The-->
+        <!--                dependency generated via sensor-lax agents on agents with strong sensing capabilities makes efficient-->
+        <!--                communication protocols for cooperation a requirement rather than an additional modeling technique for-->
+        <!--                performance.-->
+        <!--            </p>-->
+        <!--        </div>-->
 
-        <div><p style="float: left;"><img src="../../assets/img/Full_CommGraph_Final.PNG" height="250" width="200"
-                                          class="post_thumb"></p>
-            <p style="margin-left:220px">In HetNet, I research how robots with different capabilities can coordinate
-                under partial observability and decentralized communication. Heterogeneity in robots' design
-                characteristics and their roles are introduced to leverage the relative merits of different agents and
-                their capabilities. I define a heterogeneous robot team as a group of cooperative agents that are
-                capable of performing different tasks and may have access to different sensory information. I categorize
-                agents with similar state, action, and observation spaces in the same class. In such a heterogeneous
-                setting, communicating is not straightforward as agents do not speak the same "language''; The
-                dependency generated via sensor-lax agents on agents with strong sensing capabilities makes efficient
-                communication protocols for cooperation a requirement rather than an additional modeling technique for
-                performance.
-            </p>
-        </div>
-
-        <div class="row m-0" style="width:100%;">
-            <p>Accordingly, I directly model each agent class as a unique node type.</p>
-        </div>
+        <!--        <div class="row m-0" style="width:100%;">-->
+        <!--            <p>Accordingly, I directly model each agent class as a unique node type.</p>-->
+        <!--        </div>-->
         <div class="row m-0" style="width:100%;">
             <h5>Project materials:</h5>
             <ul style="margin-left:10px">
@@ -316,6 +317,12 @@
 
 
 
+
+
+
+
+
+
 </script>
 
 <!-- Scrolling Progress Bar -->
@@ -368,6 +375,12 @@
     });
 
 
+
+
+
+
+
+
 </script>
 
 <!-- Code Syntax Highlighting -->
@@ -407,6 +420,12 @@
     });
 
 
+
+
+
+
+
+
 </script>
 
 <!-- Enable Tooltips -->
@@ -414,6 +433,12 @@
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
+
+
+
+
+
+
 
 
 </script>
@@ -426,6 +451,12 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-54519238-1', 'auto');
     ga('send', 'pageview');
+
+
+
+
+
+
 
 
 </script>
