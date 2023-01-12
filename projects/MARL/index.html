@@ -157,7 +157,7 @@
                 <td><img src="/assets/img/new_grf.gif" width="400px" height="200px"/>
                     <center>Figure 1: MAGIC in Google Research Football</center>
                 </td>
-                <td> </td>
+                <td></td>
                 <td style="font-size: 13px"> With our framework, we set a new state-of-the-art in communication-based
                     MARL by modeling the topology of
                     interactions among agents as a dynamic directed graph that accommodates time-varying communication
@@ -217,14 +217,15 @@
         <table>
             <tbody>
             <tr>
-                <td><img src="/assets/img/Full_CommGraph_Final.PNG" width="500px" height="300px"/>
-                    <center>Figure 1: Heterogeneous Policy Networks</center>
-                </td>
                 <td style="font-size: 16px"> With Heterogeneous Policy Networks, we move to thinking about
                     "heterogeneous" robots. Heterogeneity in robots' design
                     characteristics and their roles are introduced to leverage the relative merits of different agents
-                    and their capabilities (e.g., a ground robot vs. a UAV).
+                    and their capabilities (e.g., a ground robot vs. a UAV). We define a heterogeneous robot team as a
+                    group of cooperative agents that are capable of performing different tasks and may have access to
+                    different sensory information.
                 </td>
+                <td><img src="/assets/img/Full_CommGraph_Final.PNG" width="500px" height="300px"/>
+                    <center>Figure 1: Heterogeneous Policy Networks</center>
                 </td>
             </tr>
             </tbody>
@@ -248,9 +249,7 @@
         <!--        </div>-->
 
         <div class="row m-0" style="width:100%;">
-            <p>We define a heterogeneous robot team as a
-                group of cooperative agents that are capable of performing different tasks and may have access to
-                different sensory information. We categorize agents with similar state, action, and observation
+            <p> We categorize agents with similar state, action, and observation
                 spaces in the same class. In such a heterogeneous setting, communicating is not straightforward as
                 agents do not speak the same "language''; The dependency generated via sensor-lax agents on agents
                 with strong sensing capabilities makes efficient communication protocols for cooperation a
@@ -385,6 +384,7 @@
 
 
 
+
 </script>
 
 <!-- Scrolling Progress Bar -->
@@ -435,6 +435,7 @@
         });
       }
     });
+
 
 
 
@@ -510,6 +511,7 @@
 
 
 
+
 </script>
 
 <!-- Enable Tooltips -->
@@ -517,6 +519,7 @@
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
+
 
 
 
@@ -546,6 +549,7 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-54519238-1', 'auto');
     ga('send', 'pageview');
+
 
 
 
