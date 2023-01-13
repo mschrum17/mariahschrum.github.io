@@ -182,7 +182,9 @@
                         </nobr>
 
 
-                        <a href="https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p964.pdf" target="_blank">Interpretable and Personalized Apprenticeship Scheduling: Learning Interpretable Scheduling Policies from Heterogeneous User Demonstrations</a>.
+                        <a href="https://www.ifaamas.org/Proceedings/aamas2021/pdfs/p964.pdf" target="_blank">Interpretable
+                            and Personalized Apprenticeship Scheduling: Learning Interpretable Scheduling Policies from
+                            Heterogeneous User Demonstrations</a>.
                         <i>Conference on Neural Information Processing Systems (NeurIPS), 2020</i>.
                     </div>
                 </li>
@@ -198,18 +200,15 @@
 
     <div class="row m-0" style="width: 100%;">
 
-        <div><p style="float: left;"><img src="../../assets/img/Full_CommGraph_Final.PNG" height="250" width="200"
+        <div><p style="float: left;"><img src="../../assets/img/pingpong.gif" height="250" width="200"
                                           class="post_thumb"></p>
-            <p style="margin-left:220px">In HetNet, I research how robots with different capabilities can coordinate
-                under partial observability and decentralized communication. Heterogeneity in robots' design
-                characteristics and their roles are introduced to leverage the relative merits of different agents and
-                their capabilities. I define a heterogeneous robot team as a group of cooperative agents that are
-                capable of performing different tasks and may have access to different sensory information. I categorize
-                agents with similar state, action, and observation spaces in the same class. In such a heterogeneous
-                setting, communicating is not straightforward as agents do not speak the same "language''; The
-                dependency generated via sensor-lax agents on agents with strong sensing capabilities makes efficient
-                communication protocols for cooperation a requirement rather than an additional modeling technique for
-                performance.
+            <p style="margin-left:220px">For robotics, we utilize LfD frameworks with interaction. As such, to learn
+                from heterogeneous demonstrations, we develop a novel Inverse Reinforcement Learning (IRL) algorithm,
+                Multi-Strategy Reward Distillation (MSRD), that simultaneously infers the user's intent and
+                decision-making policy by decomposing person-specific reward functions into a shared task reward and
+                personalized strategy rewards via network distillation. MSRD has been shown to achieve accurate recovery
+                of the task objective, represent demonstrator preferences, and produce versatile robot policies that
+                resemble demonstrated strategies.
             </p>
         </div>
 
@@ -334,6 +333,7 @@
 
 
 
+
 </script>
 
 <!-- Scrolling Progress Bar -->
@@ -392,6 +392,7 @@
 
 
 
+
 </script>
 
 <!-- Code Syntax Highlighting -->
@@ -437,6 +438,7 @@
 
 
 
+
 </script>
 
 <!-- Enable Tooltips -->
@@ -444,6 +446,7 @@
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
+
 
 
 
@@ -462,6 +465,7 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-54519238-1', 'auto');
     ga('send', 'pageview');
+
 
 
 
