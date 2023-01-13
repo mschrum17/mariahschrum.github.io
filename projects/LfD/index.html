@@ -200,7 +200,7 @@
 
     <div class="row m-0" style="width: 100%;">
 
-        <div><p style="float: left;"><img src="../../assets/img/pingpong.gif" height="250" width="200"
+        <div><p style="float: left;"><img src="../../assets/img/pingpong.gif" height="640" width="360"
                                           class="post_thumb"></p>
             <p style="margin-left:220px">For robotics, we utilize LfD frameworks with interaction. As such, to learn
                 from heterogeneous demonstrations, we develop a novel Inverse Reinforcement Learning (IRL) algorithm,
@@ -213,7 +213,12 @@
         </div>
 
         <div class="row m-0" style="width:100%;">
-            <p>Accordingly, I directly model each agent class as a unique node type.</p>
+            <p> To address suboptimal demonstrations, in \cite{corl1}, we develop a novel IRL algorithm, Self-Supervised
+                Reward Regression (SSRR) that is able to learn from suboptimal demonstration by
+                characterizing the relationship between a policy’s performance and the amount of injected noise. We
+                empirically find that we can infer an idealized reward function from suboptimal demonstration,
+                outperform received suboptimal demonstrations by $\sim 200\%$ in simulated domains, and greatly improve
+                upon collected real-world robot demonstrations in a robot table-tennis setup.</p>
         </div>
         <div class="row m-0" style="width:100%;">
             <h5>Project materials:</h5>
@@ -334,6 +339,7 @@
 
 
 
+
 </script>
 
 <!-- Scrolling Progress Bar -->
@@ -393,6 +399,7 @@
 
 
 
+
 </script>
 
 <!-- Code Syntax Highlighting -->
@@ -439,6 +446,7 @@
 
 
 
+
 </script>
 
 <!-- Enable Tooltips -->
@@ -446,6 +454,7 @@
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
     })
+
 
 
 
@@ -465,6 +474,7 @@
     })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
     ga('create', 'UA-54519238-1', 'auto');
     ga('send', 'pageview');
+
 
 
 
