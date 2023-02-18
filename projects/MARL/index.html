@@ -141,9 +141,9 @@
                     Multi-Agent Graph-attentIon Communication (MAGIC), with a
                     graph-attention communication protocol in which we learn 1) a
                     Scheduler to help with the problems of when to communicate and
-                    whom to address messages to, and 2) a Message Processor using
-                    Graph Attention Networks (GATs) with dynamic graphs to deal
-                    with communication signals.
+                    whom to address messages to, and 2) a Message Processor
+                    which integrates and processes
+                    received messages in preparation for decision-making.
                 </td>
                 <td><img src="/assets/img/MAGIC.png" alt="iqubes" width="400px" height="400px"/>
                     <center>Figure 1: MAGIC Framework</center>
@@ -157,16 +157,11 @@
                 <td><img src="/assets/img/new_grf.gif" width="400px" height="200px"/>
                     <center>Figure 1: MAGIC in Google Research Football</center>
                 </td>
-                <td style="font-size: 13px"> With our framework, we set a new state-of-the-art in communication-based
+                <td style="font-size: 18px"> We set a new state-of-the-art in communication-based
                     MARL by modeling the topology of
                     interactions among agents as a dynamic directed graph that accommodates time-varying communication
                     needs and accurately
-                    captures the relations between agents. Our proposed framework emulates the features of an effective
-                    human-human team through: 1) the Scheduler, which helps each agent to decide when it should
-                    communicate
-                    and whom it should communicate with, and 2) the Message Processor, which integrates and processes
-                    received messages in preparation for decision making. We test across several domains, including the
-                    high-dimensional Google Research Football environment.
+                    captures the relations between agents.
                 </td>
                 </td>
             </tr>
